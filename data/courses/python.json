@@ -1,0 +1,17 @@
+{
+  "title": "Python for Beginners",
+  "full_description": "Learn how to write Python scripts, work with data structures, and build small automation tools. No prior programming experience required.",
+  "mentor": "John Smith",
+  "lessons": [
+    "Installing Python",
+    "Basic syntax and variables",
+    "Lists, tuples, and dictionaries",
+    "Control flow",
+    "Functions and modules",
+    "Working with files",
+    "Mini automation project"
+  ],
+  "duration": "4 weeks",
+  "level": "Beginner"
+}
+

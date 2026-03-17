@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Doe",
+    "title": "Senior JavaScript Engineer"
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "title": "Python Developer & Instructor"
+  },
+  {
+    "id": 3,
+    "name": "Sara Lee",
+    "title": "Product Designer"
+  }
+]
+

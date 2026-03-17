@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Essentials",
+    "slug": "javascript",
+    "category": "programming",
+    "type": "short",
+    "is_registration_open": true,
+    "short_description": "Learn the fundamentals of JavaScript in one week."
+  },
+  {
+    "id": 2,
+    "title": "Python for Beginners",
+    "slug": "python",
+    "category": "programming",
+    "type": "long",
+    "is_registration_open": true,
+    "short_description": "Start coding in Python and build small projects."
+  },
+  {
+    "id": 3,
+    "title": "Design Basics",
+    "slug": "design-basics",
+    "category": "design",
+    "type": "short",
+    "is_registration_open": false,
+    "short_description": "Get started with layouts, colors, and typography."
+  }
+]
+

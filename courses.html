@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learnify - Courses</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="courses">
+  <header class="main-header">
+    <div class="logo">Learnify</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <!-- INTENTIONAL BUG: broken navigation link -->
+      <a href="coursess.html">Courses</a>
+      <a href="mentors.html">Mentors</a>
+      <a href="blog.html">Blog</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <div id="loader" class="loader loader-visible">
+    Loading courses...
+  </div>
+
+  <main class="container">
+    <section class="section">
+      <h1>All Courses</h1>
+
+      <div class="filters">
+        <select id="filter-category">
+          <option value="">All Categories</option>
+          <option value="programming">Programming</option>
+          <option value="design">Design</option>
+        </select>
+
+        <select id="filter-type">
+          <option value="">All Types</option>
+          <option value="short">Short</option>
+          <option value="long">Long</option>
+        </select>
+
+        <select id="filter-registration">
+          <option value="">All</option>
+          <option value="open">Registration Open</option>
+          <option value="closed">Registration Closed</option>
+        </select>
+      </div>
+
+      <div id="courses-list" class="cards-grid">
+        <!-- Hardcoded list that must be replaced -->
+        <article class="course-card">
+          <h3>Hardcoded JavaScript Course</h3>
+          <p>Replace this card with dynamic content.</p>
+          <a href="course-view.html?course=javascript" class="btn-link">
+            View Details
+          </a>
+        </article>
+        <article class="course-card">
+          <h3>Hardcoded Python Course</h3>
+          <p>Replace this card with dynamic content.</p>
+          <a href="course-view.html?course=python" class="btn-link">
+            View Details
+          </a>
+        </article>
+      </div>
+
+      <p id="courses-empty" class="empty-state" hidden>
+        No courses match your filters.
+      </p>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>© 2026 Learnify. All rights reserved.</p>
+  </footer>
+
+  <script src="js/ui.js"></script>
+  <script src="js/courses.js"></script>
+</body>
+</html>
+

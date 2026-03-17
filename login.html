@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learnify - Login</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="login">
+  <header class="main-header">
+    <div class="logo">Learnify</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="mentors.html">Mentors</a>
+      <a href="blog.html">Blog</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <div id="loader" class="loader loader-visible">
+    Loading...
+  </div>
+
+  <main class="container">
+    <section class="section auth-section">
+      <h1>Login</h1>
+
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input id="login-email" type="email" required />
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input id="login-password" type="password" required />
+        </div>
+        <button type="submit" class="btn-primary">Sign In</button>
+      </form>
+
+      <p id="login-error" class="error-message" hidden>
+        Invalid credentials. Please try again.
+      </p>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>© 2026 Learnify. All rights reserved.</p>
+  </footer>
+
+  <script src="js/ui.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
+

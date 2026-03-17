@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learnify - Course Details</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="course-view">
+  <header class="main-header">
+    <div class="logo">Learnify</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="mentors.html">Mentors</a>
+      <a href="blog.html">Blog</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <div id="loader" class="loader loader-visible">
+    Loading course...
+  </div>
+
+  <main class="container">
+    <section class="section">
+      <h1 id="course-title">Hardcoded Course Title</h1>
+      <p id="course-level">Level: Beginner</p>
+      <p id="course-duration">Duration: 4 weeks</p>
+      <p id="course-mentor">Mentor: Jane Doe</p>
+
+      <p id="course-description">
+        This is a hardcoded course description. It should be replaced with
+        dynamic content loaded from a JSON file based on the course slug in the URL.
+      </p>
+
+      <h2>Lessons (Hardcoded)</h2>
+      <ul id="course-lessons">
+        <li>Lesson 1: Introduction</li>
+        <li>Lesson 2: Basics</li>
+        <li>Lesson 3: Advanced Topics</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>© 2026 Learnify. All rights reserved.</p>
+  </footer>
+
+  <script src="js/ui.js"></script>
+  <script src="js/courses.js"></script>
+  <script>
+    // INTENTIONAL BUG: slug handling is incomplete / wrong
+    // Students must implement `loadCourseDetails` correctly inside `courses.js`.
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('id'); // should be ?course=slug
+    // This call will probably not work at first
+    if (typeof loadCourseDetails === 'function') {
+      loadCourseDetails(slug);
+    }
+  </script>
+</body>
+</html>
+

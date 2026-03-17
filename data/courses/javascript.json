@@ -1,0 +1,17 @@
+{
+  "title": "JavaScript Essentials",
+  "full_description": "This course covers the fundamentals of JavaScript, including variables, functions, DOM manipulation, and basic asynchronous patterns. By the end, you'll be able to build small interactive web pages.",
+  "mentor": "Jane Doe",
+  "lessons": [
+    "Setting up your environment",
+    "Variables and data types",
+    "Functions and scope",
+    "Working with the DOM",
+    "Events and user interaction",
+    "Intro to asynchronous JavaScript",
+    "Final project"
+  ],
+  "duration": "7 days",
+  "level": "Beginner"
+}
+

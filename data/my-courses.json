@@ -1,0 +1,17 @@
+[
+  {
+    "user_id": 1,
+    "course_id": 1,
+    "slug": "javascript",
+    "title": "JavaScript Essentials",
+    "progress": 40
+  },
+  {
+    "user_id": 1,
+    "course_id": 2,
+    "slug": "python",
+    "title": "Python for Beginners",
+    "progress": 10
+  }
+]
+

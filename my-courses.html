@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learnify - My Courses</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="my-courses">
+  <header class="main-header">
+    <div class="logo">Learnify</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="mentors.html">Mentors</a>
+      <a href="blog.html">Blog</a>
+      <a href="my-courses.html">My Courses</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <div id="loader" class="loader loader-visible">
+    Loading your courses...
+  </div>
+
+  <main class="container">
+    <section class="section">
+      <h1>My Courses</h1>
+
+      <p id="my-courses-guest-message">
+        You are not logged in. In a real app, this page would check your session.
+        For this exercise, just load mock data from JSON.
+      </p>
+
+      <div id="my-courses-list" class="cards-grid">
+        <!-- Hardcoded; must be replaced -->
+        <article class="course-card">
+          <h3>Hardcoded Enrolled Course</h3>
+          <p>Replace this with courses from my-courses.json.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>© 2026 Learnify. All rights reserved.</p>
+  </footer>
+
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

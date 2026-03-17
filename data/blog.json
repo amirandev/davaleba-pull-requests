@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "title": "Why Learning JavaScript Matters",
+    "slug": "why-javascript-matters",
+    "excerpt": "JavaScript powers the modern web and is a must-have skill for frontend developers."
+  },
+  {
+    "id": 2,
+    "title": "Design Tips for Developers",
+    "slug": "design-tips-for-devs",
+    "excerpt": "A few simple design principles can dramatically improve the look of your apps."
+  },
+  {
+    "id": 3,
+    "title": "Building Consistent Study Habits",
+    "slug": "study-habits",
+    "excerpt": "Consistency beats intensity. Here's how to build a rhythm that sticks."
+  }
+]
+

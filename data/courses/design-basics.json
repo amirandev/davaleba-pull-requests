@@ -1,0 +1,16 @@
+{
+  "title": "Design Basics",
+  "full_description": "Discover fundamental design principles including color theory, typography, layout, and visual hierarchy. Great for developers who want to improve their visual eye.",
+  "mentor": "Sara Lee",
+  "lessons": [
+    "What makes good design?",
+    "Color and contrast",
+    "Typography basics",
+    "Layout and grids",
+    "Designing for the web",
+    "Design critique session"
+  ],
+  "duration": "2 weeks",
+  "level": "Beginner"
+}
+
